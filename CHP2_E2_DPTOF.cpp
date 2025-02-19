@@ -10,14 +10,14 @@ Display the result on screen
 using namespace std;
 
 int main() {
-    // Variables to hold the values
+    
     double milesDriven = 375.0;
     double gallonsUsed = 15.0;
 
-    // Calculating miles per gallon (MPG)
+    
     double mpg = milesDriven / gallonsUsed;
 
-    // Displaying the result
+    
     cout << "Miles per gallon (MPG): " << mpg << endl;
 
     return 0;
