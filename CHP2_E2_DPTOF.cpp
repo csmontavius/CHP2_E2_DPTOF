@@ -7,12 +7,19 @@ Display the result on screen
 */
 
 #include <iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
-    // Variables to hold the values
-    double milesDriven = 375.0;
-    double gallonsUsed = 15.0;
+    // Variables to hold user input
+    double milesDriven;
+    double gallonsUsed;
+
+    // Getting the user's input
+    cout << "Enter the number of miles driven: ";
+    cin >> milesDriven;
+    cout << "Enter the number of gallons of gas used: ";
+    cin >> gallonsUsed;
 
     // Calculating miles per gallon (MPG)
     double mpg = milesDriven / gallonsUsed;
